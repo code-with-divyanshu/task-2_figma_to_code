@@ -1,0 +1,32 @@
+.section3-conatiner {
+  margin: 20px 0;
+  display: flex;
+  gap: 30px;
+}
+
+.section3-conatiner .tournaments-container {
+  background: linear-gradient(150.89deg, #e04726 0%, #1c1814 100%);
+  padding: 30px;
+}
+
+.section3-conatiner .tournaments-container h4 {
+  font-family: Roboto;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 24px;
+  line-height: 24px;
+  margin: 30px 0;
+}
+
+.top-team-ranks {
+  padding: 10px;
+}
+
+.top-team-ranks h4 {
+  font-family: Roboto;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 24px;
+  line-height: 24px;
+  margin: 30px 0;
+}
