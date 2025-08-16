@@ -1,0 +1,53 @@
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  padding: 80px 30px;
+  width: 100%;
+}
+
+.footer-container .logo {
+  text-decoration: none;
+  color: #fff;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.footer-container .logo .logo-design {
+  width: 30px;
+  height: 30px;
+}
+
+.footer-container .logo span {
+  font-family: Inter;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 40px;
+}
+
+.footer-container .logo-para {
+  width: 426px;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.footer-container h3 {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 40px;
+  margin-bottom: 30px;
+}
+
+.footer-container p {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+}

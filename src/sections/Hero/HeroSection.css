@@ -1,0 +1,144 @@
+.hero-container {
+  margin: 40px auto 20px;
+  padding: 20px;
+  overflow-x: hidden;
+}
+
+.main-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.hero-image {
+  width: 600px;
+  height: 456px;
+}
+
+.main-content h1 {
+  font-family: Paytone One;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 100%;
+  width: 923px;
+}
+
+.main-content p {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  width: 801px;
+}
+
+.btn-group button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px;
+  margin: 60px 0 20px;
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.btn-group .btn-white {
+  background-color: #fff;
+  color: #1c1814;
+}
+
+.btn-group .btn-main {
+  background: #e04726;
+  color: #fff;
+}
+
+.hero-second {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero-second .about-pubg {
+  display: flex;
+  justify-content: center;
+  width: 600px;
+  height: 250px;
+  gap: 20px;
+  border: 1px solid #fff;
+}
+
+.hero-second .about-pubg .pubg-img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+}
+
+.hero-second .about-pubg .btn-group2 button {
+  outline: none;
+  border: none;
+  margin: 20px 0;
+  padding: 10px;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+}
+
+.hero-second .about-pubg .btn-group2 .btn-white {
+  background-color: #fff;
+  color: #1c1814;
+}
+
+.hero-second .about-pubg .btn-group2 .btn-main {
+  background: #e04726;
+  color: #fff;
+}
+
+.hero-second .about-pubg h3 {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 100%;
+  margin: 10px 0;
+}
+
+.hero-second .about-pubg p {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 25px;
+}
+
+.statics .entry {
+  display: flex;
+  justify-content: space-between;
+  gap: 70px;
+  align-items: flex-start;
+  padding: 20px;
+  border-top: 2px solid white;
+}
+
+.statics .entry:last-child {
+  border-bottom: 2px solid white;
+}
+
+.statics .entry h4 {
+  max-width: 91px;
+  max-height: 40px;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 40px;
+}
+
+.statics .entry p {
+  max-width: 362px;
+  max-height: 60px;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.statics .entry .year {
+  color: #e04726;
+}

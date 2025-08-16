@@ -1,0 +1,95 @@
+.how_it_works {
+  margin: 20px 0;
+  padding: 20px;
+}
+
+.how_it_works h2 {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 36px;
+  margin: 30px 0;
+}
+
+.how_it_works .main-container {
+  background: #322f2b;
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+  padding: 50px;
+}
+
+.main-container .content h3 {
+  font-family: Paytone One;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 64px;
+}
+
+.main-container .content p {
+  width: 610px;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 40px 0;
+}
+
+.main-container .content button {
+  border: 2px solid #ffffff;
+  background-color: transparent;
+  color: #ffffff;
+  padding: 15px;
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.main-container .create-account-form {
+  width: 100%;
+  flex: 1;
+  max-width: 500px;
+}
+
+.main-container .create-account-form h4 {
+  font-family: Paytone One;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 24px;
+  line-height: 24px;
+}
+
+.main-container .create-account-form form {
+  display: flex;
+  max-width: 500px;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.main-container .create-account-form input {
+  padding: 15px;
+  background: #494643;
+  border: 1px solid #494643;
+}
+
+.main-container .create-account-form input::placeholder {
+  font-family: Roboto;
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #d4d4d4;
+}
+
+.main-container .create-account-form button {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  padding: 15px;
+  background: #e04726;
+  border: none;
+}
