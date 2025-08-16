@@ -6,7 +6,7 @@ const Tournaments = ({ title, liveMsg, image, color, btnText }) => {
   return (
     <div className="container">
       <h5>
-        {title} {liveMsg}
+        {title} <span>{liveMsg}</span>
       </h5>
       <p>
         It is a long established fact that a reader will be distracted by the

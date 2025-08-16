@@ -1,0 +1,88 @@
+.liveTournament {
+  margin: 40px 0;
+  padding: 20px;
+}
+
+.liveTournament h2 {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 36px;
+  margin: 30px 0;
+}
+
+.tabs {
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+.tabs button {
+  padding: 15px;
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  color: #fff;
+  background-color: transparent;
+  border: 1px solid #ccbab0;
+}
+
+.tabs button.active {
+  background: #e04726;
+  border: none;
+}
+
+.liveTournament .main-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  margin: 30px 0;
+}
+
+.liveTournament .main-container .left-container .live-streaming h3 {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 24px;
+  color: #e04726;
+  margin: 10px 0;
+}
+
+.liveTournament .main-container .left-container .live-streaming img {
+  width: 800px;
+  height: 560px;
+  object-fit: cover;
+}
+
+.liveTournament .main-container .left-container {
+  width: 800px;
+}
+
+.liveTournament .main-container .left-container h5 {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 40px;
+  margin-bottom: 50px;
+}
+
+.liveTournament .main-container .left-container span {
+  color: #e04726;
+}
+
+.liveTournament .main-container .left-container h4 {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 24px;
+  margin: 10px 0;
+}
+
+.liveTournament .main-container .right-container h4 {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 24px;
+  margin: 10px 0;
+}
