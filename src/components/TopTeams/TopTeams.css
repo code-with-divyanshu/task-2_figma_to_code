@@ -1,0 +1,57 @@
+.top-team-container {
+  border: 2px solid #ffffff;
+  padding: 20px;
+  margin: 20px 0;
+  display: flex;
+  gap: 20px;
+}
+
+.top-team-container h5 {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 28px;
+}
+
+.top-team-container h6 {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  margin: 7px 0;
+}
+
+.top-team-container span {
+  color: #e04726;
+}
+
+.top-team-container p {
+  width: 547px;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.top-team-container .img-btn {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.top-team-container img {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.top-team-container button {
+  font-family: Roboto;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 20px;
+  color: #ffffff;
+  padding: 10px;
+  outline: none;
+  border: none;
+}
